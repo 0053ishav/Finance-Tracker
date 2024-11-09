@@ -1,0 +1,41 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1730837319465,
+      "tag": "0000_organic_norman_osborn",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1730837552122,
+      "tag": "0001_parched_may_parker",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1730837560876,
+      "tag": "0002_misty_vermin",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1730923048899,
+      "tag": "0003_nifty_clint_barton",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1731161746373,
+      "tag": "0004_stormy_brood",
+      "breakpoints": true
+    }
+  ]
+}

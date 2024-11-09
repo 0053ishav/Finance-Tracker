@@ -1,0 +1,24 @@
+{
+  "id": "f634aa14-5fdb-4d08-af5e-7622a9cf7af3",
+  "prevId": "45f9fa35-0b3d-438b-a96c-b38dfd636603",
+  "version": "5",
+  "dialect": "pg",
+  "tables": {
+    "accounts": {
+      "name": "accounts",
+      "schema": "",
+      "columns": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}
