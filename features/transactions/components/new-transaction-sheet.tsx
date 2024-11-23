@@ -12,7 +12,6 @@ import { TransactionForm } from "@/features/transactions/components/transaction-
 import { useCreateTransaction } from "@/features/transactions/api/use-create-transaction";
 import { useCreateCategory } from "@/features/categories/api/use-create-category";
 import { useGetCategories } from "@/features/categories/api/use-get-categories";
-import { useGetAccount } from "@/features/accounts/api/use-get-account";
 import { useGetAccounts } from "@/features/accounts/api/use-get-accounts";
 import { useCreateAccount } from "@/features/accounts/api/use-create-account";
 import { Loader2 } from "lucide-react";
@@ -83,7 +82,7 @@ export const NewTransactionSheet = () => {
                     : (
                         <TransactionForm
                             onSubmit={onSubmit}
-                            disabled={false}
+                            disabled={isPending}
                             categoryOptions={categoryOptions}
                             onCreateCategory={onCreateCategory}
                             accountOptions={accountOptions}
