@@ -11,7 +11,7 @@ import { columns } from "./columns";
 import { useNewTransaction } from "@/features/transactions/hooks/use-new-transaction";
 import { useGetTransactions } from "@/features/transactions/api/use-get-transactions";
 import { useBulkDeleteTransactions } from "@/features/transactions/api/use-bulk-delete-transactions";
-import { useBulkCreateTransactions } from "@/features/transactions/api/use-bulk-create-transactions copy";
+import { useBulkCreateTransactions } from "@/features/transactions/api/use-bulk-create-transactions";
 
 import { ImportCard } from "./import-card";
 import { UploadButton } from "./upload-button";
