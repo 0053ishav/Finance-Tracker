@@ -5,6 +5,8 @@ import { useSearchParams } from "next/navigation"
 import { DataCard, DataCardLoading } from "@/components/data-card";
 import { FaPiggyBank } from "react-icons/fa"
 import { FaArrowTrendUp, FaArrowTrendDown } from "react-icons/fa6"
+import { Suspense } from "react";
+import { Loader2 } from "lucide-react";
 export const DataGrid = () => {
 
     const { data, isLoading } = useGetSummary();
@@ -26,6 +28,8 @@ export const DataGrid = () => {
     }
 
     return (
+        <Suspense fallback={<div className="flex justify-center items-center h-[500px]"><Loader2 className="text-slate-300 animate-spin" /></div>}>
+
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 pb-2 mb-8">
             <DataCard
                 title="Remaining"
@@ -49,5 +53,6 @@ export const DataGrid = () => {
                 dateRange={dateRangeLabel}
             />
         </div>
+        </Suspense>
     )
 }

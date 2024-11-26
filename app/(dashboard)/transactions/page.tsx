@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { Suspense, useState } from "react";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -109,6 +109,7 @@ const TransactionsPage = () => {
   }
 
   return (
+    <Suspense fallback={<div className="flex justify-center items-center h-[500px]"><Loader2 className="text-slate-200 animate-spin"/></div>}>
     <div className="max-w-screen-2xl mx-auto w-full pb-10 -mt-24">
       <Card className="border-none drop-shadow-sm">
         <CardHeader className="gap-y-2 lg:flex-row lg:items-center lg:justify-between">
@@ -144,6 +145,7 @@ const TransactionsPage = () => {
         </CardContent>
       </Card>
     </div>
+  </Suspense>
   );
 };
 

@@ -7,8 +7,6 @@ import { eq, and, inArray } from "drizzle-orm";
 import { zValidator } from "@hono/zod-validator";
 import { createId } from "@paralleldrive/cuid2"
 import { z } from "zod";
-import { error } from "console";
-
 
 const app = new Hono()
     .get(
