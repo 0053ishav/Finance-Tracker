@@ -41,8 +41,6 @@ const CategoriesPage = () => {
   }
 
   return (
-    <Suspense fallback={<div className="flex justify-center items-center h-[500px]"><Loader2 className="text-slate-300 animate-spin" /></div>}>
-
     <div className="max-w-screen-2xl mx-auto w-full pb-10 -mt-24">
       <Card className="border-none drop-shadow-sm">
         <CardHeader className="gap-y-2 lg:flex-row lg:items-center lg:justify-between">
@@ -53,6 +51,7 @@ const CategoriesPage = () => {
           </Button>
         </CardHeader>
         <CardContent>
+
           <DataTable
             columns={columns}
             data={accounts}
@@ -66,8 +65,7 @@ const CategoriesPage = () => {
         </CardContent>
       </Card>
     </div>
-    </Suspense>
   );
 };
 
-export default CategoriesPage;
+export default CategoriesPage

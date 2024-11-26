@@ -30,7 +30,7 @@ const INITIAL_IMPORT_RESULTS = {
   meta: {},
 };
 
-const TransactionsPage = () => {
+const TransactionsPage =  () => {
   const [ AccountDialog, confirm] = useSelectAccount();
   const [variant, setVariant] = useState<VARIANTS>(VARIANTS.LIST);
 
@@ -109,7 +109,6 @@ const TransactionsPage = () => {
   }
 
   return (
-    <Suspense fallback={<div className="flex justify-center items-center h-[500px]"><Loader2 className="text-slate-200 animate-spin"/></div>}>
     <div className="max-w-screen-2xl mx-auto w-full pb-10 -mt-24">
       <Card className="border-none drop-shadow-sm">
         <CardHeader className="gap-y-2 lg:flex-row lg:items-center lg:justify-between">
@@ -142,11 +141,19 @@ const TransactionsPage = () => {
             }}
             disabled={isDisabled}
           />
+          
         </CardContent>
       </Card>
     </div>
-  </Suspense>
   );
 };
 
-export default TransactionsPage;
+
+// Wrap the entire page inside a Suspense boundary
+export default function SuspendedTransactionsPage() {
+  return (
+    <Suspense fallback={<div>Loading page...</div>}>
+      <TransactionsPage />
+    </Suspense>
+  );
+}
