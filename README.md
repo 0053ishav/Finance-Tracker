@@ -24,7 +24,7 @@ Welcome to **Finance Tracker**, a web-based application designed to help you mon
    - Add new accounts (e.g., checking, savings, investments) and select them to track associated finances.  
    - View consolidated financial data once accounts are added.
      ![Screenshot 2024-11-28 205350](https://github.com/user-attachments/assets/24b2111c-7668-4ace-926d-bac663e002bc)
-   - Add new transaction or import csv file.
+   - Add new transaction or import [csv file](./transaction_details.csv).
      ![Screenshot 2024-11-28 205403](https://github.com/user-attachments/assets/eaa0042e-2c27-4d35-bd22-7e91e91adad0)
 
      ![Screenshot 2024-11-28 205600](https://github.com/user-attachments/assets/e73c301f-ae1f-4eb8-8d92-9862002cb5c2)
