@@ -7,27 +7,27 @@ Welcome to **Finance Tracker**, a web-based application designed to help you mon
 1. **User Authentication**:  
    - Sign up for a new account or log in using your existing credentials.  
    - Supports account creation and management.
-    ![Screenshot 2024-11-28 205216](https://github.com/user-attachments/assets/d83415ef-e090-4ba4-b129-1f679950c73d)
-    ![Screenshot 2024-11-28 205235](https://github.com/user-attachments/assets/824d69e5-3efd-44e3-88a5-5f572b916e58)
+![Screenshot 2024-11-28 205216](https://github.com/user-attachments/assets/d83415ef-e090-4ba4-b129-1f679950c73d)
+![Screenshot 2024-11-28 205235](https://github.com/user-attachments/assets/824d69e5-3efd-44e3-88a5-5f572b916e58)
 
 
 
 2. **Dashboard Overview**:  
    - After signing in, users are greeted with a dashboard showing their financial overview.  
    - Create and manage accounts to organize your financial data.
-     ![Screenshot 2024-11-28 205501](https://github.com/user-attachments/assets/469df29b-d305-44a3-8c1f-ee868c2be1a5)
-     ![Screenshot 2024-11-28 205816](https://github.com/user-attachments/assets/032c0734-cb91-42f4-9c0b-95b5c865b590)
+![Screenshot 2024-11-28 205501](https://github.com/user-attachments/assets/469df29b-d305-44a3-8c1f-ee868c2be1a5)
+![Screenshot 2024-11-28 205816](https://github.com/user-attachments/assets/032c0734-cb91-42f4-9c0b-95b5c865b590)
 
 
 
 3. **Create and View Accounts**:  
    - Add new accounts (e.g., checking, savings, investments) and select them to track associated finances.  
    - View consolidated financial data once accounts are added.
-     ![Screenshot 2024-11-28 205350](https://github.com/user-attachments/assets/24b2111c-7668-4ace-926d-bac663e002bc)
+![Screenshot 2024-11-28 205350](https://github.com/user-attachments/assets/24b2111c-7668-4ace-926d-bac663e002bc)
    - Add new transaction or import [csv file](./transaction_details.csv).
-     ![Screenshot 2024-11-28 205403](https://github.com/user-attachments/assets/eaa0042e-2c27-4d35-bd22-7e91e91adad0)
+![Screenshot 2024-11-28 205403](https://github.com/user-attachments/assets/eaa0042e-2c27-4d35-bd22-7e91e91adad0)
 
-     ![Screenshot 2024-11-28 205600](https://github.com/user-attachments/assets/e73c301f-ae1f-4eb8-8d92-9862002cb5c2)
+![Screenshot 2024-11-28 205600](https://github.com/user-attachments/assets/e73c301f-ae1f-4eb8-8d92-9862002cb5c2)
 
 ## How to Use
 
