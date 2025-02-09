@@ -19,21 +19,34 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Finance",
-  description: "Finance",
+  description: "Finance management and insights.",
+  
+  icons: {
+    icon: ["/favicon/favicon.ico?v=4"],
+    apple: ["/favicon/apple-touch-icon.png?v=4"],
+    shortcut: ["/favicon/apple-touch-icon.png"],
+  },
+  manifest: "/favicon/site.webmanifest",
 
-icons: {
-  icon: [
-    '/favicon/favicon.ico?v=4',
-  ],
-  apple: [
-    '/favicon/apple-touch-icon.png?v=4',
-  ],
-  shortcut: [
-    '/favicon/apple-touch-icon.png'
-  ],
-},
-manifest: "/favicon/site.webmanifest",
+  openGraph: {
+    title: "Finance",
+    description: "Finance management and insights.",
+    url: "https://finance.ishav.space",
+    siteName: "Finance",
+    images: [
+      {
+        url: "/logo.svg",
+        width: 1200,
+        height: 630,
+        alt: "Finance - Manage Your Money Smartly",
+      },
+    ],
+    type: "website",
+    locale: "en_US",
+  },
 };
+
+
 export default function RootLayout({
   children,
 }: Readonly<{
